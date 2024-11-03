@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface Device {
+package devices;
+
+public interface Device {
+    public void activeDevice();
+    public String getDeviceName();
 }
+

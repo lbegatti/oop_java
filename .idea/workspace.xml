@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d91daf9-fc3d-43d7-9aa6-5fd37155dc4b" name="Changes" comment="" />
+    <list default="true" id="0d91daf9-fc3d-43d7-9aa6-5fd37155dc4b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Projector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Projector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/SurroundSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/SurroundSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remotes/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/remotes/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e81c4223-db3a-4618-b76d-c08c71d5a5df" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2oMC72oelX7Ma4Kuif8RDRJfPvi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,7 +41,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,5 +67,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

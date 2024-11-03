@@ -1,2 +1,13 @@
-package devices;public class SurroundSystem {
+package devices;
+
+public class SurroundSystem implements Device {
+    public void activeDevice() {
+        System.out.println(this.getClass().getName()+" connected.");
+    }
+
+    @Override
+    public String getDeviceName() {
+        return this.getClass().getName();
+    }
 }
+
