@@ -18,17 +18,22 @@ public class CoffeeAttendant {
         attendantCustomerList.add(waitingCustomer);
 
     }
-    public String completedDrink(String drink){
-        prepareDrink(drink);
-        System.out.println("Completed preparation of " + drink + ".");
-        return drink;
+    public void completedDrink(){
+        prepareDrink();
+        System.out.println("Completed preparation of the drink.");
     }
 
     public void takeOrder(Customer waitingCustomer){
-        System.out.println("Taking order for " + waitingCustomer.getCustomerName() + ".");
+        System.out.println("Taking order for " + waitingCustomer.getCustomerName() + " for a " + waitingCustomer.getDrinkOrdered()+ ".");
     }
-    public void prepareDrink(String drinkToPrepare){
-        System.out.println("preparing drink: "+ drinkToPrepare);
+    public void prepareDrink(){
+
+        for(Customer customer : attendantCustomerList){
+            System.out.println("preparing drink: "+  customer.getDrinkOrdered() + " for " + customer.getCustomerName());
+            customer.orderReady(customer.getDrinkOrdered());
+
+        }
+
     }
 
     public void callOutCompleteOrder(){
